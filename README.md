@@ -58,12 +58,14 @@ Optional: with a [Kaggle API token](https://www.kaggle.com/settings) set up, mis
 
 ## Run
 
-Go into a project folder and run its pipeline:
+From the repository root, with the virtual environment active, go into a project folder and run its pipeline:
 
-```bash
-cd ipl_winner_prediction
-python main.py
-```
+| Project | Command | Runtime |
+|---|---|---|
+| IPL Winner Prediction | `cd ipl_winner_prediction && python main.py` | ~40 s |
+| Netflix Movie Recommender | `cd netflix_recommender && python main.py` | ~20 s |
+| Walmart Demand Forecasting | `cd walmart_demand_forecasting && python main.py` | ~100 s |
+| Ad CTR Prediction | `cd ad_ctr_prediction && python main.py` | ~2.5 min |
 
 Each run prints the progress of every step, saves the model to `models/` and writes the metrics and predictions to `outputs/`.
 

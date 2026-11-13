@@ -70,7 +70,7 @@ The strongest signals are behaviour and product (`brand_id`, `user_past_views`, 
 
 ```bash
 cd ad_ctr_prediction
-pip install -r requirements.txt
+pip install -r requirements.txt   # skip if you already installed the main requirements.txt
 python main.py
 ```
 

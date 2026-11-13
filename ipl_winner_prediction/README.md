@@ -65,7 +65,7 @@ Example: CSK need 45 off 24 balls with 6 wickets left vs MI → **CSK 55% / MI 4
 
 ```bash
 cd ipl_winner_prediction
-pip install -r requirements.txt
+pip install -r requirements.txt   # skip if you already installed the main requirements.txt
 python main.py
 ```
 

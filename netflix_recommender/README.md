@@ -60,7 +60,7 @@ Example "because you watched":
 
 ```bash
 cd netflix_recommender
-pip install -r requirements.txt
+pip install -r requirements.txt   # skip if you already installed the main requirements.txt
 python main.py
 ```
 

@@ -67,7 +67,7 @@ The model **halves the store-level forecast error**. Item-level error stays high
 
 ```bash
 cd walmart_demand_forecasting
-pip install -r requirements.txt
+pip install -r requirements.txt   # skip if you already installed the main requirements.txt
 python main.py
 ```
 
