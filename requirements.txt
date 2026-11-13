@@ -7,4 +7,3 @@ lightgbm
 joblib
 kaggle
 six
-streamlit

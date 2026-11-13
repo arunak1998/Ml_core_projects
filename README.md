@@ -58,21 +58,15 @@ Optional: with a [Kaggle API token](https://www.kaggle.com/settings) set up, mis
 
 ## Run
 
-One project from the terminal:
+Go into a project folder and run its pipeline:
 
 ```bash
 cd ipl_winner_prediction
 python main.py
 ```
 
-Or all four from the demo app:
-
-```bash
-streamlit run app.py
-```
-
-Pick a project in the sidebar and click **Run pipeline**. The app streams the pipeline logs live, then shows the metrics and every output table, with a chart for date-based outputs.
+Each run prints the progress of every step, saves the model to `models/` and writes the metrics and predictions to `outputs/`.
 
 ## Tech stack
 
-Python · pandas · NumPy · scikit-learn · XGBoost · LightGBM · SciPy · Streamlit
+Python · pandas · NumPy · scikit-learn · XGBoost · LightGBM · SciPy
